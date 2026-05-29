@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background: #050816;
+  color: white;
+  font-family: Inter, sans-serif;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glow {
+  box-shadow: 0 0 40px rgba(139, 92, 246, 0.5);
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #8b5cf6;
+  border-radius: 10px;
+}
